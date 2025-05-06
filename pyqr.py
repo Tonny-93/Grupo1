@@ -7,7 +7,27 @@ valor3 = input("ingrese numero")
 
 #convertir cada variable a entero
 
+def operacion(x, y, z):
+  """
+  Calcula x elevado a y, dividido por z.
 
+  Args:
+    x: La base de la potencia.
+    y: El exponente de la potencia.
+    z: El divisor.
+
+  Returns:
+    El resultado de la operación x^y / z, convertido a una cadena de texto.
+  """
+  resultado = (x ** y) / z
+  return str(resultado)
+
+# Ejemplo de uso:
+x = 2
+y = 3
+z = 4
+resultado = operacion(x, y, z)
+print(resultado)  # Salida: 2.0
 
 """crear la funcnion operacion 
 esta funcion devolera el resultado de:
