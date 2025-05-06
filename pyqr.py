@@ -16,6 +16,9 @@ esta funcion devolera el resultado de:
 x elevado a la y, dividido para z
 ""  
 
+y eso es todo
+
+
 
 
 resultado = operacion(x,y,z)
