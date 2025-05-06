@@ -11,6 +11,7 @@ import qrcode
 crear la funcnion operacion 
 esta funcion devolera el resultado de:
 x elevado a la y, dividido para z
+y eso es todo
 """
 
 
