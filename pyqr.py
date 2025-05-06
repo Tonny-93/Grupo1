@@ -10,8 +10,8 @@ import qrcode
 """
 crear la funcnion operacion 
 esta funcion devolera el resultado de:
-x elevado a la y, dividido para z
-"""
+x elevado a la y, dividido para z """
+
 def operacion(x, y, z):
   """
   Calcula x elevado a la y, dividido por z.
@@ -30,6 +30,11 @@ def operacion(x, y, z):
 
 resultado = operacion(x,y,z)
 #convertir este resutado en string
+numero = 123
+cadena = str(numero)
+print(type(cadena))  # Output: <class 'str'>
+print(cadena)  # Output: 123
+
 
 #mostrar el resultado en el qr
 img = qrcode.make(resultado)
