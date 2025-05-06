@@ -1,9 +1,17 @@
+
 import qrcode
 #pedir al usuario que ingrese 3 valores y almacenarlos en 3 variables diferentes
+<<<<<<< HEAD
 
 valor1 = input("ingrese el numero")
 valor2 = input("ingrese el numero")
 valor3 = input("ingrese numero")
+=======
+x=(imput"ingrese valor número 1")
+y= "ingrese valor número 2"
+z=(imput"ingrese valor número 3")
+
+>>>>>>> 16d029df647eb1e531fdb38aa0ec4f0c6c740afa
 
 #convertir cada variable a entero
 
@@ -32,10 +40,18 @@ print(resultado)  # Salida: 2.0
 """crear la funcnion operacion 
 esta funcion devolera el resultado de:
 x elevado a la y, dividido para z
+<<<<<<< HEAD
 """
 def operacion(x, y, z):
   """
   Calcula x elevado a la y, dividido para z.
+=======
+""  
+
+y eso es todo
+
+
+>>>>>>> 16d029df647eb1e531fdb38aa0ec4f0c6c740afa
 
   Args:
       x: El valor base.
