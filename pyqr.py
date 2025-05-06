@@ -22,5 +22,28 @@ img = qrcode.make(resultado)
 type(img)  # qrcode.image.pil.PilImage
 img.save("resultado.png")
 
-def operacaion (x, y, z)
-  return(x, y, z)
+
+ valor1 = imput("ingresar el numero")
+ valor2 = input("ingresar el numero")
+ valor3 = input("ingresar el numero")
+
+
+def operacion(x, y, z)
+
+calcula x, elevado a la y, divido por z.
+
+x: la base de la potencia
+y: elevado
+z: divisor
+
+
+
+ return:
+  operacion de x^y / z, convertido a una potencia de texto.
+
+ """
+
+resultado = (x**y) / z
+ return str(resultado)
+
+
