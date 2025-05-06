@@ -21,3 +21,6 @@ resultado = operacion(x,y,z)
 img = qrcode.make(resultado)
 type(img)  # qrcode.image.pil.PilImage
 img.save("resultado.png")
+
+def operacaion (x, y, z)
+  return(x, y, z)
