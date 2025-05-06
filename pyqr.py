@@ -1,6 +1,7 @@
 
 import qrcode
 #pedir al usuario que ingrese 3 valores y almacenarlos en 3 variables diferentes
+<<<<<<< HEAD
 # Pedir al usuario que ingrese el primer valor
 valor1 = input("Ingrese el primer valor: ")
 
@@ -17,6 +18,11 @@ valor3 = input("Ingrese el tercer valor: ")
 
 # Ahora puedes usar las variables valor1, valor2 y valor3 para trabajar con los valores ingresados
 print("Los valores ingresados son:", valor1, valor2, valor3)
+=======
+x=(imput"ingrese valor número 1")
+y= "ingrese valor número 2"
+z=(imput"ingrese valor número 3")
+>>>>>>> 16d029df647eb1e531fdb38aa0ec4f0c6c740afa
 
 
 #convertir cada variable a entero
@@ -33,7 +39,16 @@ print(entero)  # Salida: 3
 """
 crear la funcnion operacion 
 esta funcion devolera el resultado de:
+<<<<<<< HEAD
 x elevado a la y, dividido para z """
+=======
+x elevado a la y, dividido para z
+""  
+
+y eso es todo
+
+
+>>>>>>> 16d029df647eb1e531fdb38aa0ec4f0c6c740afa
 
 def operacion(x, y, z):
   """
