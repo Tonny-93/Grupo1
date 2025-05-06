@@ -12,7 +12,21 @@ crear la funcnion operacion
 esta funcion devolera el resultado de:
 x elevado a la y, dividido para z
 """
+def operacion(x, y, z):
+  """
+  Calcula x elevado a la y, dividido por z.
 
+  Args:
+    x: La base de la potencia.
+    y: El exponente de la potencia.
+    z: El divisor.
+
+  Returns:
+    El resultado de x elevado a la y, dividido por z.
+  """
+  if z == 0:
+    return "Error: División por cero."  # Manejo del caso de división por cero
+  return x**y / z
 
 resultado = operacion(x,y,z)
 #convertir este resutado en string
